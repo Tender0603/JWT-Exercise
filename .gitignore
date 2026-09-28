@@ -1,0 +1,31 @@
+# Maven target
+target/
+
+# Local Environment and Secret Files
+.env
+*.env
+.env.local
+application-local.properties
+application-dev.properties
+run_app.ps1
+run_app.bat
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# Logs and scratch files
+*.log
+scratch/
+docs/scratch/
+
+# System / OS files
+.DS_Store
+Thumbs.db
+
+# Gemini / Agent brain logs
+.gemini/
